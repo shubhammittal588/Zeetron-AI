@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7F3881E2670D152003BFF7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F3881D2670D152003BFF7E /* AppDelegate.swift */; };
+		A7F388202670D152003BFF7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F3881F2670D152003BFF7E /* SceneDelegate.swift */; };
+		A7F388222670D152003BFF7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F388212670D152003BFF7E /* ViewController.swift */; };
+		A7F388252670D152003BFF7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F388232670D152003BFF7E /* Main.storyboard */; };
+		A7F388282670D152003BFF7E /* Zeetron_AI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7F388262670D152003BFF7E /* Zeetron_AI.xcdatamodeld */; };
+		A7F3882A2670D153003BFF7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7F388292670D153003BFF7E /* Assets.xcassets */; };
+		A7F3882D2670D153003BFF7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F3882B2670D153003BFF7E /* LaunchScreen.storyboard */; };
+		A7F388382670D153003BFF7E /* Zeetron_AITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F388372670D153003BFF7E /* Zeetron_AITests.swift */; };
+		A7F388432670D153003BFF7E /* Zeetron_AIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F388422670D153003BFF7E /* Zeetron_AIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7F388342670D153003BFF7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7F388122670D152003BFF7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7F388192670D152003BFF7E;
+			remoteInfo = "Zeetron AI";
+		};
+		A7F3883F2670D153003BFF7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7F388122670D152003BFF7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7F388192670D152003BFF7E;
+			remoteInfo = "Zeetron AI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7F3881A2670D152003BFF7E /* Zeetron AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zeetron AI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F3881D2670D152003BFF7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7F3881F2670D152003BFF7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A7F388212670D152003BFF7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7F388242670D152003BFF7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7F388272670D152003BFF7E /* Zeetron_AI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Zeetron_AI.xcdatamodel; sourceTree = "<group>"; };
+		A7F388292670D153003BFF7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7F3882C2670D153003BFF7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7F3882E2670D153003BFF7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F388332670D153003BFF7E /* Zeetron AITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zeetron AITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F388372670D153003BFF7E /* Zeetron_AITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zeetron_AITests.swift; sourceTree = "<group>"; };
+		A7F388392670D153003BFF7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F3883E2670D153003BFF7E /* Zeetron AIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zeetron AIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F388422670D153003BFF7E /* Zeetron_AIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zeetron_AIUITests.swift; sourceTree = "<group>"; };
+		A7F388442670D153003BFF7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7F388172670D152003BFF7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F388302670D153003BFF7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F3883B2670D153003BFF7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7F388112670D152003BFF7E = {
+			isa = PBXGroup;
+			children = (
+				A7F3881C2670D152003BFF7E /* Zeetron AI */,
+				A7F388362670D153003BFF7E /* Zeetron AITests */,
+				A7F388412670D153003BFF7E /* Zeetron AIUITests */,
+				A7F3881B2670D152003BFF7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7F3881B2670D152003BFF7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7F3881A2670D152003BFF7E /* Zeetron AI.app */,
+				A7F388332670D153003BFF7E /* Zeetron AITests.xctest */,
+				A7F3883E2670D153003BFF7E /* Zeetron AIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7F3881C2670D152003BFF7E /* Zeetron AI */ = {
+			isa = PBXGroup;
+			children = (
+				A7F3881D2670D152003BFF7E /* AppDelegate.swift */,
+				A7F3881F2670D152003BFF7E /* SceneDelegate.swift */,
+				A7F388212670D152003BFF7E /* ViewController.swift */,
+				A7F388232670D152003BFF7E /* Main.storyboard */,
+				A7F388292670D153003BFF7E /* Assets.xcassets */,
+				A7F3882B2670D153003BFF7E /* LaunchScreen.storyboard */,
+				A7F3882E2670D153003BFF7E /* Info.plist */,
+				A7F388262670D152003BFF7E /* Zeetron_AI.xcdatamodeld */,
+			);
+			path = "Zeetron AI";
+			sourceTree = "<group>";
+		};
+		A7F388362670D153003BFF7E /* Zeetron AITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7F388372670D153003BFF7E /* Zeetron_AITests.swift */,
+				A7F388392670D153003BFF7E /* Info.plist */,
+			);
+			path = "Zeetron AITests";
+			sourceTree = "<group>";
+		};
+		A7F388412670D153003BFF7E /* Zeetron AIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7F388422670D153003BFF7E /* Zeetron_AIUITests.swift */,
+				A7F388442670D153003BFF7E /* Info.plist */,
+			);
+			path = "Zeetron AIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7F388192670D152003BFF7E /* Zeetron AI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F388472670D153003BFF7E /* Build configuration list for PBXNativeTarget "Zeetron AI" */;
+			buildPhases = (
+				A7F388162670D152003BFF7E /* Sources */,
+				A7F388172670D152003BFF7E /* Frameworks */,
+				A7F388182670D152003BFF7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Zeetron AI";
+			productName = "Zeetron AI";
+			productReference = A7F3881A2670D152003BFF7E /* Zeetron AI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7F388322670D153003BFF7E /* Zeetron AITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F3884A2670D153003BFF7E /* Build configuration list for PBXNativeTarget "Zeetron AITests" */;
+			buildPhases = (
+				A7F3882F2670D153003BFF7E /* Sources */,
+				A7F388302670D153003BFF7E /* Frameworks */,
+				A7F388312670D153003BFF7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7F388352670D153003BFF7E /* PBXTargetDependency */,
+			);
+			name = "Zeetron AITests";
+			productName = "Zeetron AITests";
+			productReference = A7F388332670D153003BFF7E /* Zeetron AITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7F3883D2670D153003BFF7E /* Zeetron AIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F3884D2670D153003BFF7E /* Build configuration list for PBXNativeTarget "Zeetron AIUITests" */;
+			buildPhases = (
+				A7F3883A2670D153003BFF7E /* Sources */,
+				A7F3883B2670D153003BFF7E /* Frameworks */,
+				A7F3883C2670D153003BFF7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7F388402670D153003BFF7E /* PBXTargetDependency */,
+			);
+			name = "Zeetron AIUITests";
+			productName = "Zeetron AIUITests";
+			productReference = A7F3883E2670D153003BFF7E /* Zeetron AIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7F388122670D152003BFF7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					A7F388192670D152003BFF7E = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					A7F388322670D153003BFF7E = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = A7F388192670D152003BFF7E;
+					};
+					A7F3883D2670D153003BFF7E = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = A7F388192670D152003BFF7E;
+					};
+				};
+			};
+			buildConfigurationList = A7F388152670D152003BFF7E /* Build configuration list for PBXProject "Zeetron AI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7F388112670D152003BFF7E;
+			productRefGroup = A7F3881B2670D152003BFF7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7F388192670D152003BFF7E /* Zeetron AI */,
+				A7F388322670D153003BFF7E /* Zeetron AITests */,
+				A7F3883D2670D153003BFF7E /* Zeetron AIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7F388182670D152003BFF7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F3882D2670D153003BFF7E /* LaunchScreen.storyboard in Resources */,
+				A7F3882A2670D153003BFF7E /* Assets.xcassets in Resources */,
+				A7F388252670D152003BFF7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F388312670D153003BFF7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F3883C2670D153003BFF7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7F388162670D152003BFF7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F388222670D152003BFF7E /* ViewController.swift in Sources */,
+				A7F3881E2670D152003BFF7E /* AppDelegate.swift in Sources */,
+				A7F388202670D152003BFF7E /* SceneDelegate.swift in Sources */,
+				A7F388282670D152003BFF7E /* Zeetron_AI.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F3882F2670D153003BFF7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F388382670D153003BFF7E /* Zeetron_AITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7F3883A2670D153003BFF7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F388432670D153003BFF7E /* Zeetron_AIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7F388352670D153003BFF7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7F388192670D152003BFF7E /* Zeetron AI */;
+			targetProxy = A7F388342670D153003BFF7E /* PBXContainerItemProxy */;
+		};
+		A7F388402670D153003BFF7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7F388192670D152003BFF7E /* Zeetron AI */;
+			targetProxy = A7F3883F2670D153003BFF7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7F388232670D152003BFF7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7F388242670D152003BFF7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7F3882B2670D153003BFF7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7F3882C2670D153003BFF7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7F388452670D153003BFF7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7F388462670D153003BFF7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7F388482670D153003BFF7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WTMZBXX463;
+				INFOPLIST_FILE = "Zeetron AI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.game1.Zeetron-AI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7F388492670D153003BFF7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WTMZBXX463;
+				INFOPLIST_FILE = "Zeetron AI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.game1.Zeetron-AI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A7F3884B2670D153003BFF7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WTMZBXX463;
+				INFOPLIST_FILE = "Zeetron AITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.game1.Zeetron-AITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zeetron AI.app/Zeetron AI";
+			};
+			name = Debug;
+		};
+		A7F3884C2670D153003BFF7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WTMZBXX463;
+				INFOPLIST_FILE = "Zeetron AITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.game1.Zeetron-AITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zeetron AI.app/Zeetron AI";
+			};
+			name = Release;
+		};
+		A7F3884E2670D153003BFF7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WTMZBXX463;
+				INFOPLIST_FILE = "Zeetron AIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.game1.Zeetron-AIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Zeetron AI";
+			};
+			name = Debug;
+		};
+		A7F3884F2670D153003BFF7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WTMZBXX463;
+				INFOPLIST_FILE = "Zeetron AIUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.game1.Zeetron-AIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Zeetron AI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7F388152670D152003BFF7E /* Build configuration list for PBXProject "Zeetron AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F388452670D153003BFF7E /* Debug */,
+				A7F388462670D153003BFF7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7F388472670D153003BFF7E /* Build configuration list for PBXNativeTarget "Zeetron AI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F388482670D153003BFF7E /* Debug */,
+				A7F388492670D153003BFF7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7F3884A2670D153003BFF7E /* Build configuration list for PBXNativeTarget "Zeetron AITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F3884B2670D153003BFF7E /* Debug */,
+				A7F3884C2670D153003BFF7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7F3884D2670D153003BFF7E /* Build configuration list for PBXNativeTarget "Zeetron AIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F3884E2670D153003BFF7E /* Debug */,
+				A7F3884F2670D153003BFF7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A7F388262670D152003BFF7E /* Zeetron_AI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A7F388272670D152003BFF7E /* Zeetron_AI.xcdatamodel */,
+			);
+			currentVersion = A7F388272670D152003BFF7E /* Zeetron_AI.xcdatamodel */;
+			path = Zeetron_AI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A7F388122670D152003BFF7E /* Project object */;
+}
