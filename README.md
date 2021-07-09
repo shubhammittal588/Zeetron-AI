@@ -1,0 +1,1 @@
+# Zeetron-AI is a iOS AI based on OPENAI's GPT-3 but it is not complete. The problem is that GPT-3 runs on Python and unfortunately Swift doesn't support Python although i tried and used PythonKit but that too only support macOS not iOS, and now I'm stuck on this project. If anyone would like to work on this please let me know. You can E-mail me at shubhammittal588@gmail.com. 
