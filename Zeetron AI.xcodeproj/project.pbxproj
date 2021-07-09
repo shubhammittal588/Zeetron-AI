@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1391E0334FFF2E761F5DC6CF /* Pods_Zeetron_AI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE35D4F32159FE3E950D50F /* Pods_Zeetron_AI.framework */; };
+		725D813CECF1EA33FDA9E328 /* Pods_Zeetron_AI_Zeetron_AIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D64A0EA24626F8DCECB8C64 /* Pods_Zeetron_AI_Zeetron_AIUITests.framework */; };
+		8A117C9D793B67E7526EDC40 /* Pods_Zeetron_AITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10152557451C66A86EEEC28A /* Pods_Zeetron_AITests.framework */; };
+		A774ED7626824B5800D9AFE1 /* openAI.py in Resources */ = {isa = PBXBuildFile; fileRef = A774ED6F26824B5800D9AFE1 /* openAI.py */; };
+		A7888F952680EEA0009CE6C5 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = A7888F942680EEA0009CE6C5 /* PythonKit */; };
 		A7F3881E2670D152003BFF7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F3881D2670D152003BFF7E /* AppDelegate.swift */; };
 		A7F388202670D152003BFF7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F3881F2670D152003BFF7E /* SceneDelegate.swift */; };
 		A7F388222670D152003BFF7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F388212670D152003BFF7E /* ViewController.swift */; };
@@ -16,9 +21,52 @@
 		A7F3882D2670D153003BFF7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F3882B2670D153003BFF7E /* LaunchScreen.storyboard */; };
 		A7F388382670D153003BFF7E /* Zeetron_AITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F388372670D153003BFF7E /* Zeetron_AITests.swift */; };
 		A7F388432670D153003BFF7E /* Zeetron_AIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F388422670D153003BFF7E /* Zeetron_AIUITests.swift */; };
+		A7F38853267136CA003BFF7E /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F38852267136CA003BFF7E /* ChatViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A7B79A3A267B96FA0091EFE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7B79A31267B96FA0091EFE7 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B81513B0B3333500DFFB1B1B179FB571;
+			remoteInfo = InputBarAccessoryView;
+		};
+		A7B79A3C267B96FA0091EFE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7B79A31267B96FA0091EFE7 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 15A68A8F33BD9EB9AFD02465B0418BCF;
+			remoteInfo = MessageKit;
+		};
+		A7B79A3E267B96FA0091EFE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7B79A31267B96FA0091EFE7 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D96170E673391D43B16AE39E7B2E3C33;
+			remoteInfo = "MessageKit-MessageKitAssets";
+		};
+		A7B79A40267B96FA0091EFE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7B79A31267B96FA0091EFE7 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3B0F5648F0B8C85F3D9036C97149ACB0;
+			remoteInfo = "Pods-Zeetron AI";
+		};
+		A7B79A42267B96FA0091EFE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7B79A31267B96FA0091EFE7 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1A9B54B90C1FE4721089414C5C33E72D;
+			remoteInfo = "Pods-Zeetron AI-Zeetron AIUITests";
+		};
+		A7B79A44267B96FA0091EFE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7B79A31267B96FA0091EFE7 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C7DCE4D519A0139E75F6E38AC37C0739;
+			remoteInfo = "Pods-Zeetron AITests";
+		};
 		A7F388342670D153003BFF7E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A7F388122670D152003BFF7E /* Project object */;
@@ -36,6 +84,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10152557451C66A86EEEC28A /* Pods_Zeetron_AITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zeetron_AITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3842B7F13F83C193855CA405 /* Pods-Zeetron AITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zeetron AITests.release.xcconfig"; path = "Target Support Files/Pods-Zeetron AITests/Pods-Zeetron AITests.release.xcconfig"; sourceTree = "<group>"; };
+		5AE35D4F32159FE3E950D50F /* Pods_Zeetron_AI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zeetron_AI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70A206FD8B61EF4BEABD2616 /* Pods-Zeetron AI-Zeetron AIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zeetron AI-Zeetron AIUITests.debug.xcconfig"; path = "Target Support Files/Pods-Zeetron AI-Zeetron AIUITests/Pods-Zeetron AI-Zeetron AIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D64A0EA24626F8DCECB8C64 /* Pods_Zeetron_AI_Zeetron_AIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zeetron_AI_Zeetron_AIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AFF23AB48B29B2172F37EA0 /* Pods-Zeetron AI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zeetron AI.debug.xcconfig"; path = "Target Support Files/Pods-Zeetron AI/Pods-Zeetron AI.debug.xcconfig"; sourceTree = "<group>"; };
+		A49937BEDA30A6BAEE2C64E4 /* Pods-Zeetron AITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zeetron AITests.debug.xcconfig"; path = "Target Support Files/Pods-Zeetron AITests/Pods-Zeetron AITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A74C5772268F226600CC1C57 /* Zeetron AI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Zeetron AI.entitlements"; sourceTree = "<group>"; };
+		A774ED6F26824B5800D9AFE1 /* openAI.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; name = openAI.py; path = ../../../../Desktop/developer_practice/openAI.py; sourceTree = "<group>"; };
+		A7888F8C2680C312009CE6C5 /* MyLibrary */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MyLibrary; path = ../../../MyLibrary; sourceTree = "<group>"; };
+		A7B79A31267B96FA0091EFE7 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		A7F3881A2670D152003BFF7E /* Zeetron AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zeetron AI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F3881D2670D152003BFF7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7F3881F2670D152003BFF7E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +110,9 @@
 		A7F3883E2670D153003BFF7E /* Zeetron AIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zeetron AIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7F388422670D153003BFF7E /* Zeetron_AIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zeetron_AIUITests.swift; sourceTree = "<group>"; };
 		A7F388442670D153003BFF7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7F38852267136CA003BFF7E /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		B7F9E76BD22534BA5CBB6774 /* Pods-Zeetron AI-Zeetron AIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zeetron AI-Zeetron AIUITests.release.xcconfig"; path = "Target Support Files/Pods-Zeetron AI-Zeetron AIUITests/Pods-Zeetron AI-Zeetron AIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		ECBFFB29221E8325822D45D2 /* Pods-Zeetron AI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zeetron AI.release.xcconfig"; path = "Target Support Files/Pods-Zeetron AI/Pods-Zeetron AI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +120,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1391E0334FFF2E761F5DC6CF /* Pods_Zeetron_AI.framework in Frameworks */,
+				A7888F952680EEA0009CE6C5 /* PythonKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A117C9D793B67E7526EDC40 /* Pods_Zeetron_AITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,19 +137,49 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				725D813CECF1EA33FDA9E328 /* Pods_Zeetron_AI_Zeetron_AIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C1EB658F0D97A2FE6065CD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AFF23AB48B29B2172F37EA0 /* Pods-Zeetron AI.debug.xcconfig */,
+				ECBFFB29221E8325822D45D2 /* Pods-Zeetron AI.release.xcconfig */,
+				70A206FD8B61EF4BEABD2616 /* Pods-Zeetron AI-Zeetron AIUITests.debug.xcconfig */,
+				B7F9E76BD22534BA5CBB6774 /* Pods-Zeetron AI-Zeetron AIUITests.release.xcconfig */,
+				A49937BEDA30A6BAEE2C64E4 /* Pods-Zeetron AITests.debug.xcconfig */,
+				3842B7F13F83C193855CA405 /* Pods-Zeetron AITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A7B79A32267B96FA0091EFE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7B79A3B267B96FA0091EFE7 /* InputBarAccessoryView.framework */,
+				A7B79A3D267B96FA0091EFE7 /* MessageKit.framework */,
+				A7B79A3F267B96FA0091EFE7 /* MessageKitAssets.bundle */,
+				A7B79A41267B96FA0091EFE7 /* Pods_Zeetron_AI.framework */,
+				A7B79A43267B96FA0091EFE7 /* Pods_Zeetron_AI_Zeetron_AIUITests.framework */,
+				A7B79A45267B96FA0091EFE7 /* Pods_Zeetron_AITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		A7F388112670D152003BFF7E = {
 			isa = PBXGroup;
 			children = (
+				A7B79A31267B96FA0091EFE7 /* Pods.xcodeproj */,
 				A7F3881C2670D152003BFF7E /* Zeetron AI */,
 				A7F388362670D153003BFF7E /* Zeetron AITests */,
 				A7F388412670D153003BFF7E /* Zeetron AIUITests */,
 				A7F3881B2670D152003BFF7E /* Products */,
+				5C1EB658F0D97A2FE6065CD5 /* Pods */,
+				AD6A14B09ED2464BBD50A262 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +196,9 @@
 		A7F3881C2670D152003BFF7E /* Zeetron AI */ = {
 			isa = PBXGroup;
 			children = (
+				A74C5772268F226600CC1C57 /* Zeetron AI.entitlements */,
+				A774ED6F26824B5800D9AFE1 /* openAI.py */,
+				A7888F8C2680C312009CE6C5 /* MyLibrary */,
 				A7F3881D2670D152003BFF7E /* AppDelegate.swift */,
 				A7F3881F2670D152003BFF7E /* SceneDelegate.swift */,
 				A7F388212670D152003BFF7E /* ViewController.swift */,
@@ -109,6 +207,7 @@
 				A7F3882B2670D153003BFF7E /* LaunchScreen.storyboard */,
 				A7F3882E2670D153003BFF7E /* Info.plist */,
 				A7F388262670D152003BFF7E /* Zeetron_AI.xcdatamodeld */,
+				A7F38852267136CA003BFF7E /* ChatViewController.swift */,
 			);
 			path = "Zeetron AI";
 			sourceTree = "<group>";
@@ -131,6 +230,16 @@
 			path = "Zeetron AIUITests";
 			sourceTree = "<group>";
 		};
+		AD6A14B09ED2464BBD50A262 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AE35D4F32159FE3E950D50F /* Pods_Zeetron_AI.framework */,
+				7D64A0EA24626F8DCECB8C64 /* Pods_Zeetron_AI_Zeetron_AIUITests.framework */,
+				10152557451C66A86EEEC28A /* Pods_Zeetron_AITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,15 +247,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7F388472670D153003BFF7E /* Build configuration list for PBXNativeTarget "Zeetron AI" */;
 			buildPhases = (
+				8B9ECCF8666439B4B8F995A3 /* [CP] Check Pods Manifest.lock */,
 				A7F388162670D152003BFF7E /* Sources */,
 				A7F388172670D152003BFF7E /* Frameworks */,
 				A7F388182670D152003BFF7E /* Resources */,
+				B39C991CF7DA59BF58167007 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Zeetron AI";
+			packageProductDependencies = (
+				A7888F942680EEA0009CE6C5 /* PythonKit */,
+			);
 			productName = "Zeetron AI";
 			productReference = A7F3881A2670D152003BFF7E /* Zeetron AI.app */;
 			productType = "com.apple.product-type.application";
@@ -155,9 +269,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7F3884A2670D153003BFF7E /* Build configuration list for PBXNativeTarget "Zeetron AITests" */;
 			buildPhases = (
+				313E6011E260FA7D558A33B9 /* [CP] Check Pods Manifest.lock */,
 				A7F3882F2670D153003BFF7E /* Sources */,
 				A7F388302670D153003BFF7E /* Frameworks */,
 				A7F388312670D153003BFF7E /* Resources */,
+				732D98CB9F9C1A489DF3012B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -173,9 +289,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7F3884D2670D153003BFF7E /* Build configuration list for PBXNativeTarget "Zeetron AIUITests" */;
 			buildPhases = (
+				464BF06C31664ECB63F238E5 /* [CP] Check Pods Manifest.lock */,
 				A7F3883A2670D153003BFF7E /* Sources */,
 				A7F3883B2670D153003BFF7E /* Frameworks */,
 				A7F3883C2670D153003BFF7E /* Resources */,
+				8CE49374A924038BED16F582 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -218,8 +336,17 @@
 				Base,
 			);
 			mainGroup = A7F388112670D152003BFF7E;
+			packageReferences = (
+				A7888F932680EEA0009CE6C5 /* XCRemoteSwiftPackageReference "PythonKit" */,
+			);
 			productRefGroup = A7F3881B2670D152003BFF7E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A7B79A32267B96FA0091EFE7 /* Products */;
+					ProjectRef = A7B79A31267B96FA0091EFE7 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A7F388192670D152003BFF7E /* Zeetron AI */,
@@ -229,11 +356,57 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		A7B79A3B267B96FA0091EFE7 /* InputBarAccessoryView.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = InputBarAccessoryView.framework;
+			remoteRef = A7B79A3A267B96FA0091EFE7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7B79A3D267B96FA0091EFE7 /* MessageKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MessageKit.framework;
+			remoteRef = A7B79A3C267B96FA0091EFE7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7B79A3F267B96FA0091EFE7 /* MessageKitAssets.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MessageKitAssets.bundle;
+			remoteRef = A7B79A3E267B96FA0091EFE7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7B79A41267B96FA0091EFE7 /* Pods_Zeetron_AI.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_Zeetron_AI.framework;
+			remoteRef = A7B79A40267B96FA0091EFE7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7B79A43267B96FA0091EFE7 /* Pods_Zeetron_AI_Zeetron_AIUITests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_Zeetron_AI_Zeetron_AIUITests.framework;
+			remoteRef = A7B79A42267B96FA0091EFE7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A7B79A45267B96FA0091EFE7 /* Pods_Zeetron_AITests.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Pods_Zeetron_AITests.framework;
+			remoteRef = A7B79A44267B96FA0091EFE7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		A7F388182670D152003BFF7E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A774ED7626824B5800D9AFE1 /* openAI.py in Resources */,
 				A7F3882D2670D153003BFF7E /* LaunchScreen.storyboard in Resources */,
 				A7F3882A2670D153003BFF7E /* Assets.xcassets in Resources */,
 				A7F388252670D152003BFF7E /* Main.storyboard in Resources */,
@@ -256,6 +429,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		313E6011E260FA7D558A33B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zeetron AITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		464BF06C31664ECB63F238E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zeetron AI-Zeetron AIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		732D98CB9F9C1A489DF3012B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zeetron AITests/Pods-Zeetron AITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zeetron AITests/Pods-Zeetron AITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zeetron AITests/Pods-Zeetron AITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B9ECCF8666439B4B8F995A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zeetron AI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CE49374A924038BED16F582 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zeetron AI-Zeetron AIUITests/Pods-Zeetron AI-Zeetron AIUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zeetron AI-Zeetron AIUITests/Pods-Zeetron AI-Zeetron AIUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zeetron AI-Zeetron AIUITests/Pods-Zeetron AI-Zeetron AIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B39C991CF7DA59BF58167007 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zeetron AI/Pods-Zeetron AI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zeetron AI/Pods-Zeetron AI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zeetron AI/Pods-Zeetron AI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A7F388162670D152003BFF7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +557,7 @@
 				A7F388222670D152003BFF7E /* ViewController.swift in Sources */,
 				A7F3881E2670D152003BFF7E /* AppDelegate.swift in Sources */,
 				A7F388202670D152003BFF7E /* SceneDelegate.swift in Sources */,
+				A7F38853267136CA003BFF7E /* ChatViewController.swift in Sources */,
 				A7F388282670D152003BFF7E /* Zeetron_AI.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,9 +731,11 @@
 		};
 		A7F388482670D153003BFF7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AFF23AB48B29B2172F37EA0 /* Pods-Zeetron AI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Zeetron AI/Zeetron AI.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WTMZBXX463;
 				INFOPLIST_FILE = "Zeetron AI/Info.plist";
@@ -447,7 +743,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.game1.Zeetron-AI";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.game1.Zeetron-AI.test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -456,9 +752,11 @@
 		};
 		A7F388492670D153003BFF7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECBFFB29221E8325822D45D2 /* Pods-Zeetron AI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Zeetron AI/Zeetron AI.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WTMZBXX463;
 				INFOPLIST_FILE = "Zeetron AI/Info.plist";
@@ -466,7 +764,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.game1.Zeetron-AI";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.game1.Zeetron-AI.test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -475,6 +773,7 @@
 		};
 		A7F3884B2670D153003BFF7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A49937BEDA30A6BAEE2C64E4 /* Pods-Zeetron AITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,6 +796,7 @@
 		};
 		A7F3884C2670D153003BFF7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3842B7F13F83C193855CA405 /* Pods-Zeetron AITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -519,6 +819,7 @@
 		};
 		A7F3884E2670D153003BFF7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70A206FD8B61EF4BEABD2616 /* Pods-Zeetron AI-Zeetron AIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -539,6 +840,7 @@
 		};
 		A7F3884F2670D153003BFF7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7F9E76BD22534BA5CBB6774 /* Pods-Zeetron AI-Zeetron AIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -597,6 +899,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A7888F932680EEA0009CE6C5 /* XCRemoteSwiftPackageReference "PythonKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pvieito/PythonKit.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A7888F942680EEA0009CE6C5 /* PythonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7888F932680EEA0009CE6C5 /* XCRemoteSwiftPackageReference "PythonKit" */;
+			productName = PythonKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		A7F388262670D152003BFF7E /* Zeetron_AI.xcdatamodeld */ = {
